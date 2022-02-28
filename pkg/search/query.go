@@ -8,6 +8,10 @@ import (
 	"github.com/cli/cli/v2/pkg/text"
 )
 
+const (
+  KindRepositories = "repositories"
+)
+
 type Query struct {
 	Keywords   []string
 	Kind       string
